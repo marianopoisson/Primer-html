@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <!-- convertico.com puede usarse para convertir imágenes en iconos-->
+    <link rel="icon" href="iconito.ico"> <!--para usar iconos en repositorio local sumado al nombre de la página-->
+</head>
+<body>
+    <header>
+        <h1>Formulario</h1>
+
+    </header>
+    
+<section>
+    <form action="show_data.html"> <!--elige un archivo de java script para procesar los datos ingresados-->
+      <!--  <label for="nombre" >Nombre:</label>
+        <input type="text" id="nombre">  NO SE USA MAS-->
+
+        <label>Nombre:
+            <input type="text" name="nombre" placeholder="pone tu nombre" required>
+            
+        </label>
+        <label>Mail:
+            <input type="email" name="email">
+        </label>
+        <label>Hombre:
+            <input type="radio" name="Sexo">
+        </label>
+        <label>Mujer:
+            <input type="radio" name="Sexo">
+        </label>
+        <label>si?:
+            <input type="checkbox" name="sisi">
+        </label>
+
+        <label>Seleccionar Curso:
+            <select name="selector">
+                <option value="Java">Java</option>
+                <option value="Python" selected>Python</option>
+                <option value="C++">C++</option>
+            </select>
+
+        </label>
+
+        <label>si?:
+            <input type="date" name="fecha">
+        </label>
+        <label>si?:
+            <input type="color" name="">
+        </label>
+
+
+        <label >Comentarios:
+            <textarea name="comentarios" cols="30" rows="10"></textarea>
+
+        </label>
+
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label >Deporte:
+                <input type="text" name="deporte">
+
+            </label>
+            <label>Bicicleta
+                <input type="text" name="bicicleta">
+            </label>
+        </fieldset>
+
+        <input type="reset" value="reset">
+        <input type="submit" name="submit">
+
+    </form>
+
+    <!-- procesar un formulario por medio de formspree -->
+<form
+action="https://formspree.io/f/mrgroleo"
+method="POST" > <!--POST = los datos van por correo, GET = los datos se mandan por URL -->
+
+<label>
+  nombre:
+  <input type="text" name="nombre">
+</label>
+<label>
+  Your message:
+  <textarea name="message"></textarea>
+</label>
+<!-- your other form fields go here -->
+<button type="submit">Send</button>
+</form>
+
+
+</section>
+
+</body>
+</html>

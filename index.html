@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 03</title>
+
+    <script src="https://kit.fontawesome.com/eb85057f6c.js" crossorigin="anonymous"></script>
+
+    <style>
+        table, td, th{
+            border:solid;
+        }
+    </style>
+</head>
+<body>
+    
+    <header> 
+        <nav>
+            <a href="#listas"><i class="fas fa-list"></i></a>
+            <a href="#tablas"><i class="fas fa-table"></i></a>
+            <a href="#colyrowspan">Colspan</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <hgroup>
+            <h1>Clase 03</h1>
+            <h2>Clase de html</h2>
+        </hgroup>
+        <section id="listas">
+            <h2>Lista ordenada</h2>
+            <ol type="I" reversed>
+                <li>Opcion 1</li>
+                <li>Opcion 2</li>
+                <li>Opcion 3</li>
+                <li>Opcion 4</li>
+                <li>Opcion 5</li>
+                <li>Opcion 6</li>
+        
+                
+            </ol>
+
+            <h2>Lista sin ordenar</h2>
+
+            <ul>
+                <li>opcion</li>
+                <li>opcion</li>
+                <li>opcion</li>
+                
+            </ul>
+
+        </section>
+
+        <section id="tablas">
+
+            <table>
+                <tr>
+                    <th>Titulo col 1</th>
+                    <th>TITULO COL 2</th>
+                    <th>TITULO COL 3</th>
+                </tr>
+
+                <tr>
+                    <td>celda 1</td>
+                    <td>celda 1</td>
+                    <td>celda 1</td>
+
+                </tr>
+
+                <tr>
+                    <td>Celda 2</td>
+                    <td>celda 2</td>
+                    <td>celda 2</td>
+                </tr>
+            </table>
+
+        </section>
+
+        <section id="colyrowspan">
+            <table>
+                <tr>
+                    <th>Curso</th>
+                    <th>Comision</th>
+                </tr>
+                <tr>
+                    <td colspan="2">Fullstack</td>
+                    <td>2123</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">java</td>
+                    <td>5435</td>
+                </tr>
+                <tr>
+                    <td>web</td>
+                   <td>4536</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+    </main>
+
+    <footer></footer>
+
+</body>
+</html>

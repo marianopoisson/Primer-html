@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad</title>
+
+    <script src="https://kit.fontawesome.com/eb85057f6c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <style>
+        label,
+        input,
+        select,
+        textarea {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    
+
+
+    <header id="encabeza">
+        <h1 id="nombre">V al Cosmos</h1>
+        <nav id="navy">
+            <a href="index.html" ><i class="fas fa-rocket"></i> Home</a>
+            <a href=""><i class="fas fa-camera"> Galería</i></a>
+            <a href=""><i class="fas fa-book-open"></i>Cursos</a>
+            <a href=""><i class="fas fa-globe-americas"></i>Registrarse</a>
+            <a href="sede.html"><i class="fas fa-map-marker-alt"></i>Nuestra sede</a>
+            <a href="contacto.html"><i class="far fa-address-card"></i>Contacto</a>
+
+
+        </nav>
+    </header>
+
+    <main>
+
+        <form action="show_data.html">
+
+            <label>Nombre y Apellido:
+                <input type="text" name="Nombre_Apellido" placeholder="Mete el nombre" required>
+            </label>
+    
+            <label>Email:
+                <input type="email" name="Email" placeholder="Ingresa tu e-mail" required>
+            </label>
+    
+            <labe>Contlraseña:
+                <input type="password" name="Password" required>
+            </label>
+    
+            <p> Sexo:
+                <label>Mujer
+                    <input type="radio" name="Sexo" value="M">
+                </label>
+                <label>Hombre
+                    <input type="radio" name="Sexo" value="H">
+                </label>
+            </p>
+    
+            <label>Mensaje:
+                <textarea name="Mensaje" cols="30" rows="10" placeholder="Mete tu mensaje" required></textarea>
+            </label>
+    
+            <label>Quiero una copia:
+                <input type="checkbox" name="Copia" id="copia" checked>
+            </label>
+    
+            <select name="Seniority">
+                <!-- Opciones de la lista -->
+                <option value="JR">Junior</option>
+                <option value="SSR"  >Semi-Senior</option> <!-- Opción por defecto -->
+                <option value="SR" selected>Senior</option>
+            </select>
+    
+            <label>
+                <input type="date" name="" id="">
+            </label>
+    
+            <label>
+                <input type="color" name="" id="">
+            </label>
+    
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+
+
+    <footer>
+
+        <section>
+
+            <h5>Seguinos por:</h5>
+            <a href="https://www.facebook.com/bellavistaalCosmos" id="icon"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href="https://www.instagram.com/bellavistaalcosmos/" id="icon"><i class="fab fa-instagram-square fa-2x"></i></a>
+
+        </section>
+
+
+
+    </footer>
+
+</body>
+</html>
